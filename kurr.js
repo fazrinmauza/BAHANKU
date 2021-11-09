@@ -144,8 +144,6 @@ nopref = false
 // APIKEY
 HunterApi = settings.HunterApi
 YuzApi = 'Yuzzu'
-XnxxApi = 'xnxx'
-
 const time = moment().tz('Asia/Jakarta').format("HH:mm:ss")
 
 function kyun(seconds) {
@@ -1811,7 +1809,7 @@ break
                     if (args.length < 1) return reply(`*Example :*\n${prefix + command} Kurz Bot Assistan`)
 					makell = args.join(" ")
 					sticWait(from)
-					anu = await fetchJson(`https://xnxxapi.herokuapp.com/api/maker3d?text=Ya%20Allah%20Kabulkan%20DoaKu&apikey=${Xnxxapi}`)
+					anu = await fetchJson(`https://xnxxapi.herokuapp.com/api/maker3d?text=Ya%20Allah%20Kabulkan%20DoaKu&apikey=xnxx`)
 					buffer1 = await getBuffer(anu.result.results)
 					kurr.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./thumb.jpg')})
 					break
@@ -1821,7 +1819,7 @@ break
                     if (args.length < 1) return reply(`*Example :*\n${prefix + command} Kurz Bot Assistan`)
 					makell = args.join(" ")
 					sticWait(from)
-					anu = await fetchJson(`https://xnxxapi.herokuapp.com/api/maker?text=Ya%20Allah%20Kabulkan%20DoaKu&apikey=${Xnxxapi}`)
+					anu = await fetchJson(`https://xnxxapi.herokuapp.com/api/maker?text=Ya%20Allah%20Kabulkan%20DoaKu&apikey=xnxx`)
 					buffer1 = await getBuffer(anu.result.results)
 					kurr.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./thumb.jpg')})
 					break
@@ -1830,7 +1828,7 @@ break
                     if (args.length < 1) return reply(`*Example :*\n${prefix + command} Kurz Bot Assistan`)
 					makell = args.join(" ")
 					sticWait(from)
-					anu = await fetchJson(`https://xnxxapi.herokuapp.com/api/maker/special/epep?text=xnxx&apikey=${Xnxxapi}`)
+					anu = await fetchJson(`https://xnxxapi.herokuapp.com/api/maker/special/epep?text=xnxx&apikey=xnxx`)
 					buffer1 = await getBuffer(anu.result.results)
 					kurr.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./thumb.jpg')})
 					break							
