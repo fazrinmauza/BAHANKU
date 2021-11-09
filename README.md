@@ -22,8 +22,8 @@ Simpel WhatsApp Bot
 > pkg install nodejs -y
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
-> git clone https://github.com/Adi-OfficialL/wabot-adi
-> cd wabot-adi
+> git clone https://github.com/KurrXd/KurzBotAssistan
+> cd KurzBotAssistan-master
 > npm install
 > npm start
 ```
@@ -38,8 +38,8 @@ Simpel WhatsApp Bot
 * Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php) (if nulis want work,  checklist columns 1,2,3,5,6)
 
 ```
-> git clone https://github.com/Adi-OfficialL/wabot-adi
-> cd wabot-adi
+> git clone https://github.com/KurrXd/KurzBotAssistan
+> cd KurzBotAssistan-master
 > npm install
 ```
 
@@ -51,8 +51,8 @@ Simpel WhatsApp Bot
 > node . [<session name>] (session name is optional)
 ```
 
-#### Powered By : [`XTEAM`](https://api.xteam.xyz)
+#### Powered By : [`XnxxApi`](https://xnxxapi.herokuapp.com/)
 
-#### Author / Creator : [`Nurutomo`](https://GitHub.com/Nurutomo/wabot-aq)
+#### Author / Creator : [`DcodeDenpa`](https://github.com/dcode-denpa/bitch-boot)
 
-#### Recode By : [`AdiOfficial`](https://youtube.com/channel/UCXzxFx9pitmYFLJo4nHrRPg)
+#### Recode By : [`KurrXd`](https://youtube.com/c/KurrXd)
