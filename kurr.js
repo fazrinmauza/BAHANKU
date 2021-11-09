@@ -1807,9 +1807,9 @@ break
        case 'maker3d': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
                     if (args.length < 1) return reply(`*Example :*\n${prefix + command} Kurz Bot Assistan`)
-					makell = args.join(" ")
+					teksnya = args.join(" ")
 					sticWait(from)
-					anu = await fetchJson(`https://xnxxapi.herokuapp.com/api/maker3d?text=Ya%20Allah%20Kabulkan%20DoaKu&apikey=xnxx`)
+					anu = await fetchJson(`https://xnxxapi.herokuapp.com/api/maker3d?text=${teksnya}&apikey=xnxx`)
 					buffer1 = await getBuffer(anu.result.results)
 					kurr.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./thumb.jpg')})
 					break
@@ -1817,18 +1817,18 @@ break
 					case 'maker2d': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
                     if (args.length < 1) return reply(`*Example :*\n${prefix + command} Kurz Bot Assistan`)
-					makell = args.join(" ")
+					teksnya = args.join(" ")
 					sticWait(from)
-					anu = await fetchJson(`https://xnxxapi.herokuapp.com/api/maker?text=Ya%20Allah%20Kabulkan%20DoaKu&apikey=xnxx`)
+					anu = await fetchJson(`https://xnxxapi.herokuapp.com/api/maker?text=${teksnya}&apikey=xnxx`)
 					buffer1 = await getBuffer(anu.result.results)
 					kurr.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./thumb.jpg')})
 					break
 					case 'epepserti': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
                     if (args.length < 1) return reply(`*Example :*\n${prefix + command} Kurz Bot Assistan`)
-					makell = args.join(" ")
+					teksnya = args.join(" ")
 					sticWait(from)
-					anu = await fetchJson(`https://xnxxapi.herokuapp.com/api/maker/special/epep?text=xnxx&apikey=xnxx`)
+					anu = await fetchJson(`https://xnxxapi.herokuapp.com/api/maker/special/epep?text=${teksnya}&apikey=xnxx`)
 					buffer1 = await getBuffer(anu.result.results)
 					kurr.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./thumb.jpg')})
 					break							
