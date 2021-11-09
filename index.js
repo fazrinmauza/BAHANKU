@@ -22,7 +22,7 @@ nocache('./kurr.js', module => console.log(`${module} is now updated!`))
 
 const starts = async (kurr = new WAConnection()) => {
 	console.log(color('SOURCE CODE INI DIJAGA DAN DI LINDUNGI OLEH KURRXD\n\n', 'orange'), color('\n======TERIMKASIH BANYAK KEPADA======\n•Aldy Fauzy\n•Kemol\n•ADI\n•KurrXd\n•YUDHA\n•PAJARn•Dcode Denpa\n•Finx\n•SELURUH SUBSCRIBERKU', 'yellow'))
-	console.log(color('\n\nJANGAN DI JUAL ULANG BRO😑\nKALAU ADA YG MINTA SURUH CHAT ©KurrXd\nWA 6281220670449', 'pink'))
+	console.log(color('\n\nJANGAN DI JUAL  BRO😑\nKALAU ADA YG JUAL SURUH CHAT ©KurrXd\nWA 6281220670449', 'pink'))
     kurr.logger.level = 'warn'
     kurr.version = [2, 2143, 3]
     kurr.browserDescription = [ 'kurr', 'Chrome', '3.0' ]
