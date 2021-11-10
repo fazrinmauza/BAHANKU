@@ -95,7 +95,7 @@ const exif = new Exif()
 
 // DATABASE
 const afk = JSON.parse(fs.readFileSync('./database/afk.json'))
-const { jadibot, stopjadibot, listjadibot } = require('./lib/jadibot')
+const { jadibot, stopjadibot, listjadibot } = require('./lib/jadibot.json')
 const setik = JSON.parse(fs.readFileSync('./database/setik.json'))
 const vien = JSON.parse(fs.readFileSync('./database/vien.json'))
 const imagi = JSON.parse(fs.readFileSync('./database/imagi.json'))
