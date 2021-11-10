@@ -83,6 +83,7 @@ const { mediafireDl } = require('./lib/mediafire.js')
 const { pinterest } = require('./lib/pinterest')
 const { addCommands, checkCommands, deleteCommands } = require('./lib/autoresp')
 const { yta, ytv, buffer2Stream, ytsr, baseURI, stream2Buffer, noop } = require('./lib/ytdl')
+const { jadibot, stopjadibot, listjadibot } = require('./lib/jadibot.js')
 const { getBuffer, getGroupAdmins, getRandom, start, info, success, close } = require('./lib/functions')
 const client = new WAConnection()
 
@@ -95,7 +96,6 @@ const exif = new Exif()
 
 // DATABASE
 const afk = JSON.parse(fs.readFileSync('./database/afk.json'))
-const { jadibot, stopjadibot, listjadibot } = require('./lib/jadibot.json')
 const setik = JSON.parse(fs.readFileSync('./database/setik.json'))
 const vien = JSON.parse(fs.readFileSync('./database/vien.json'))
 const imagi = JSON.parse(fs.readFileSync('./database/imagi.json'))
