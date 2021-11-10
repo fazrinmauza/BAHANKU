@@ -1107,7 +1107,6 @@ reply('http://youtube.com/c/KurrXd')
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
         if(menusimpel == false){
            stod = `${sender}`
-			num = await fetchJson(`https://api.telnyx.com/anonymous/v2/number_lookup/${senderNumber}`, {method: 'get'})
 fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
@@ -1141,7 +1140,6 @@ else if(menusimpel = true){
         stod = `${sender}`
        stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
-			num = await fetchJson(`https://api.telnyx.com/anonymous/v2/number_lookup/${senderNumber}`, {method: 'get'})
        menu = `┌───「 \`\`\`Kurz Bot Assistan\`\`\` 」
 │
 🏴‍☠️ _Creator : *KurrXd* 
@@ -1177,7 +1175,7 @@ stod = `${sender}`
        nama = '🏴‍☠️ Kurz Bot Assistan 🏴‍☠️'
        ownerJid = "6281220670449@s.whatsapp.net"
 				stst = stst.status == 401 ? '' : stst.status
-			num = await fetchJson(`https://api.telnyx.com/anonymous/v2/number_lookup/${senderNumber}`, {method: 'get'})
+			
 menunya = `╭─❒ 「 Bot Info 」 ❒
 🏴‍☠️ _Creator : *KurrXd*
 🏴‍☠️ _Battery : ${baterai.battery}_
