@@ -117,6 +117,7 @@ const autosticker = JSON.parse(fs.readFileSync('./database/autosticker.json'))
 ky_ttt = []
 tttawal= ["0️⃣","1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣","7️⃣","8️⃣","9️⃣"]
 cmhit = []
+fake = "/> Tato KurrXd";
 autorespon = false
 playmusic = false
 antidelete = false
@@ -1019,12 +1020,6 @@ reply(String(e))
 			ano = fs.readFileSync('./sticker/anime/toxic.webp')
 			kurr.sendMessage(from, ano, sticker, { quoted: mek})
 				}
-				if (!isGroup && !isCmd && !command && !mek.key.fromMe && !autorespon) {
-numd = await fetchJson(`https://api.telnyx.com/anonymous/v2/number_lookup/${senderNumber}`, {method: 'get'})
-	simi = await fetchJson(`https://api.simsimi.net/v2/?text=${cmd}&lc=${numd.data.country_code}`)
-                     sami = simi.success
-                        kurr.sendMessage(from, `_${sami}_`, text, {thumbnail: ofrply, sendEphemeral: true, quoted:mek, contextInfo : {forwardingScore: 508, isForwarded: true}})
-                      }
 if (!settings.autoread) {
 kurr.chatRead(from)
 }
