@@ -68,10 +68,10 @@ if (!welkom.includes(anu.jid)) return
 		try {
 		    fkontakk = { key: {
 		    fromMe: false,
-		    participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '6285697725326-1604595598@g.us' } : {})
+		    participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '6281220670449-6281220670449@g.us' } : {})
 		    },
 		    message: {
-		    "contactMessage":{"displayName":fake,"vcard":"BEGIN:VCARD\nVERSION:3.0\nN:2;kurr;;;\nFN:kurr\nitem1.TEL;waid=6285697725326:+62 85697725326\nitem1.X-ABLabel:Mobile\nEND:VCARD"
+		    "contactMessage":{"displayName":fake,"vcard":"BEGIN:VCARD\nVERSION:3.0\nN:2;kurr;;;\nFN:kurr\nitem1.TEL;waid=6281220670449:+62 81220670449\nitem1.X-ABLabel:Mobile\nEND:VCARD"
 		     }}}
 		     const mdata = await kurr.groupMetadata(anu.jid)
          num = anu.participants[0]
