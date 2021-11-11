@@ -22,6 +22,7 @@
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.2",
     "@vitalets/google-translate-api": "^7.0.0",
+    "encodeurl": "^1.0.2",
     "awesome-phonenumber": "^2.54.0",
     "axios": "^0.21.1",
     "base64-img": "^1.0.4",
