@@ -116,7 +116,7 @@ headerType: 4
 }
 kurr.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 }
-sendButImage(mdata.id, teks, 'Sering nimbrung dan baca rules grup', img, [{buttonId: 'mam', buttonText: {displayText: 'Welcome kak 👋'}, type: 1},{buttonId: '!sc', buttonText: {displayText: 'sourcode 🗒️'}, type: 1}], {thumbnail: img, "contextInfo": {mentionedJid: [num]}, quoted: {"key": {"fromMe": false,"participant": "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "62895619083555-1616169743@g.us","inviteCode": "mememteeeekkeke","groupName": "P", "caption": `subscribe : xZiyy`, 'jpegThumbnail': fs.readFileSync('./media/thumb.jpg')}}}})
+sendButImage(mdata.id, teks, 'Sering nimbrung dan baca rules grup', img, [{buttonId: 'mam', buttonText: {displayText: 'Welcome kak 👋'}, type: 1},{buttonId: '!sc', buttonText: {displayText: 'Moga Betah Ya️'}, type: 1}], {thumbnail: img, "contextInfo": {mentionedJid: [num]}, quoted: {"key": {"fromMe": false,"participant": "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "62895619083555-1616169743@g.us","inviteCode": "mememteeeekkeke","groupName": "P", "caption": `subscribe : xZiyy`, 'jpegThumbnail': fs.readFileSync('./media/thumb.jpg')}}}})
       
 }
 if (anu.action == 'remove') {
