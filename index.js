@@ -92,7 +92,7 @@ if (!welkom.includes(anu.jid)) return
         shortpc = await axios.get(`https://tinyurl.com/api-create.php?url=${ppimg}`)
         shortgc = await axios.get(`https://tinyurl.com/api-create.php?url=${ppgc}`)
             if (anu.action == 'add') {
-            img = await getBuffer(`https://ziy.herokuapp.com/api/author/welcome1?pp=${shortpc.data}&nama=${encodeUrl(namaewa)}&namagc=${encodeUrl(mdata.subject)}&ppgc=${shortgc.data}&bg=https://i.ibb.co/XjgQzkB/b1be492ada987df650bc831b1631815e.jpg&member=${mdata.participants.length}`)
+            img = await getBuffer(`${shortpc}`)
             teks = `
 Halo @${num.split('@')[0]} 👋\nSelamat datang di Grup
 *${mdata.subject}*
