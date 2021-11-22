@@ -67,7 +67,7 @@ const { text, extendedText, contact, location, liveLocation, image, video, stick
 if (!welkom.includes(anu.jid)) return
 		try {
 		    fkontakk = { key: {
-		    fromMe: false,
+		    fromMe: true,
 		    participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '6281220670449-6281220670449@g.us' } : {})
 		    },
 		    message: {
